@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Parallax Full Collection - Mouse Interaction</title>
+<!-- must have -->
+<link href="parallax_mouseinteraction.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+
+
+<style>
+.mycanvas {
+	position:absolute;
+	top:9%;
+	right:2%;
+	z-index:10;
+}
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+<script src="js/jQueryRotateCompressed.2.2.js" type="text/javascript"></script>
+<script src="js/parallax_mouseinteraction.js" type="text/javascript"></script>
+<!-- must have -->
+
+
+
+
+	<script>
+		jQuery(function() {
+
+			jQuery('#parallax_mouseinteraction_thumbs').parallax_mouseinteraction({
+				skin: 'thumbs',
+				width: 960,
+				height: 510,
+				defaultEasing:'easeOutElastic',
+				autoPlay:8,
+				responsive:true,
+				autoHideBottomNav:false,
+				showPreviewThumbs:true,
+				autoHideNavArrows:true,
+				myloaderTime:2,
+				scrollSlideDuration:1.8,
+				scrollSlideEasing:'easeInQuint',
+				maxInteractionXmove:30,
+				maxInteractionYmove:20,	
+				thumbsOnMarginTop:20,			
+				thumbsWrapperMarginBottom:-30
+			});		
+			
+			
+		});
+	</script>
+</head>
+
+<body bgcolor="#999999" style="margin:0px;">
+
+
+            <div id="parallax_mouseinteraction_thumbs">
+           	 	<div class="myloader"></div>
+                
+                <!-- CONTENT -->               
+                
+                <ul class="parallax_mouseinteraction_list">
+                    <li data-text-id="#parallax_mouseinteraction_photoText1" data-bottom-thumb="images/thumbs/thumbs/01_thumbs.png"></li>
+                    
+                    <li data-text-id="#parallax_mouseinteraction_photoText2" data-link="http://codecanyon.net/user/LambertGroup" data-bottom-thumb="images/thumbs/thumbs/02_thumbs.png"></li>                                                          
+                                        
+                    <li data-text-id="#parallax_mouseinteraction_photoText3" data-bottom-thumb="images/thumbs/thumbs/03_thumbs.png"></li>
+                     
+                    
+                    
+                 </ul>    
+                
+                
+                
+                
+                <!-- TEXTS --> 
+                
+                
+                <div id="parallax_mouseinteraction_photoText1" class="parallax_mouseinteraction_texts"> 
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="30" data-final-left="0" data-final-top="30" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/bgFixed_MouseInteractionThumbs.jpg" width="960" height="380" alt="" /></div>	
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="410" data-final-left="0" data-final-top="410" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/shadow_thumbs.png" width="960" height="60" alt="" /></div>
+                    	
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="10" data-initial-top="39" data-final-left="10" data-final-top="39" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/blackBgBasketball.jpg" width="940" height="358" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="51" data-final-left="238" data-final-top="51" data-duration="0.5" data-fade-start="0" data-delay="1.3" data-easing="swing" data-exit-left="0" data-exit-top="29" data-exit-duration="1.5" data-exit-delay="0.6"><img src="images/thumbs/leftManFixed.png" width="350" height="320" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="532" data-initial-top="171" data-final-left="532" data-final-top="171" data-duration="1.9" data-fade-start="0" data-delay="0.0" data-easing="easeOutBounce" data-exit-left="532" data-exit-top="171" data-exit-duration="1.0" data-exit-delay="0.6" data-continuous-left="542" data-continuous-top="309" data-continuous-duration="0.2" data-continuous-easing="linear" data-enableMouseInteraction="false"><img src="images/thumbs/smallBall.png" width="67" height="67" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="529" data-initial-top="0" data-final-left="529" data-final-top="0" data-duration="0.0" data-fade-start="0" data-delay="0.0" data-easing="easeOutBounce" data-exit-left="529" data-exit-top="0" data-exit-duration="1.0" data-exit-delay="0.6" data-enableMouseInteraction="false" ><img src="images/thumbs/blueManFixed.png" width="230" height="382" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="617" data-initial-top="52" data-final-left="617" data-final-top="52" data-duration="0.6" data-fade-start="0" data-delay="0.4" data-easing="swing" data-exit-left="50" data-exit-top="52" data-exit-duration="1.0" data-exit-delay="1.3"><img src="images/thumbs/orangeManFixed.png" width="315" height="322" alt=""/></div>
+                                                            
+                    <div class="parallax_mouseinteraction_text_line textElement11_thumbs" data-initial-left="50" data-initial-top="82" data-final-left="50" data-final-top="82" data-duration="1.5" data-fade-start="0" data-delay="2.5" data-easing="easeOutElastic" data-exit-left="80" data-exit-top="-648" data-exit-duration="1.5" data-exit-delay="0.2"><a href="http://codecanyon.net/user/LambertGroup/portfolio" target="_blank">WOOW!</a><br /><span style="color:#d7151e;">Move the mouse<br /> to play<br />with them!</span></div>
+                    
+                  <div class="parallax_mouseinteraction_text_line textElement12_thumbs" data-initial-left="-300" data-initial-top="238" data-final-left="50" data-final-top="238" data-duration="1.5" data-fade-start="0" data-delay="2.8" data-easing="easeOutElastic" data-exit-left="-300" data-exit-top="238" data-exit-duration="1.5" data-exit-delay="0.5">Over 50 parameters to personalize your slider. You can add multiple layers to create a 3d sensation.<a href="#productdescription" target="_self"><br />Click Here</a> for more details.</div> 
+                   			
+               </div><!-- End photoText1 -->
+               
+               
+                
+                
+                <div id="parallax_mouseinteraction_photoText2" class="parallax_mouseinteraction_texts">
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="30" data-final-left="0" data-final-top="30" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/bgFixed_MouseInteractionThumbs.jpg" width="960" height="380" alt="" /></div>	
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="410" data-final-left="0" data-final-top="410" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/shadow_thumbs.png" width="960" height="60" alt="" /></div>
+                    
+              		<div  class="parallax_mouseinteraction_text_line" data-initial-left="10" data-initial-top="39" data-final-left="10" data-final-top="39" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/Bg2Fixed.jpg" width="940" height="358" alt=""/></div>
+              
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="-260" data-initial-top="21" data-final-left="20" data-final-top="21" data-duration="1.1" data-fade-start="0" data-delay="0.8" data-easing="swing" data-exit-left="-260" data-exit-top="21" data-exit-duration="1.5" data-exit-delay="0.6"><img src="images/thumbs/lamp.png" width="276" height="331" alt=""/></div>
+               
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="1800" data-initial-top="173" data-final-left="350" data-final-top="173" data-duration="0.7" data-fade-start="0" data-delay="0.8" data-easing="easeOutElastic" data-exit-left="0" data-exit-top="173" data-exit-duration="1.5" data-exit-delay="0.3"><img src="images/thumbs/sofa.png" width="608" height="202" alt=""/></div>
+               
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="565" data-initial-top="-146" data-final-left="550" data-final-top="198" data-duration="0.7" data-fade-start="0" data-delay="2.3" data-easing="easeOutBounce" data-exit-left="250" data-exit-top="198" data-exit-duration="1.4" data-exit-delay="0.3"><img src="images/thumbs/pillows.png" width="130" height="57" alt=""/></div>
+               
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="1600" data-initial-top="94" data-final-left="561" data-final-top="94" data-duration="0.7" data-fade-start="1" data-delay="0.8" data-easing="easeOutElastic" data-exit-left="210" data-exit-top="94" data-exit-duration="1.5" data-exit-delay="0.3"><img src="images/thumbs/girl2.png" width="252" height="274" alt=""/></div>
+               
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="-465" data-initial-top="329" data-final-left="225" data-final-top="329" data-duration="0.9" data-fade-start="0" data-delay="1.4" data-easing="swing" data-exit-left="-150" data-exit-top="329" data-exit-duration="1.5" data-exit-delay="0.4"><img src="images/thumbs/shadowCello.png" width="360" height="54" alt=""/></div>
+               
+               		<div  class="parallax_mouseinteraction_text_line" data-initial-left="-425" data-initial-top="73" data-final-left="212" data-final-top="73" data-duration="0.95" data-fade-start="0" data-delay="1.4" data-easing="swing" data-exit-left="-150" data-exit-top="73" data-exit-duration="1.5" data-exit-delay="0.4" ><img src="images/thumbs/cello.png" width="206" height="303" alt=""/></div>
+               
+                       				
+               </div><!-- End photoText2 --> 
+                       
+                         
+               
+               
+               
+               <div id="parallax_mouseinteraction_photoText3" class="parallax_mouseinteraction_texts">
+               		
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="30" data-final-left="0" data-final-top="30" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/bgFixed_MouseInteractionThumbs.jpg" width="960" height="380" alt="" /></div>	
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="0" data-initial-top="410" data-final-left="0" data-final-top="410" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/shadow_thumbs.png" width="960" height="60" alt="" /></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="10" data-initial-top="39" data-final-left="10" data-final-top="39" data-duration="0" data-fade-start="0" data-delay="0" data-preanimate="true" data-easing="swing" data-enableMouseInteraction="false"><img src="images/thumbs/BgRobotFixed.jpg" width="940" height="358" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="362" data-initial-top="35" data-final-left="362" data-final-top="35" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true"><img src="images/thumbs/Eyes.png" width="344" height="65" alt=""/></div>
+                                        
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="351" data-initial-top="0" data-final-left="331" data-final-top="0" data-duration="0.7" data-fade-start="0" data-delay="0" data-preanimate="true" data-enableMouseInteraction="false"><img src="images/thumbs/overEyesFixedThumbs.png" width="393" height="133" alt=""/></div>
+                    
+                    <div class="parallax_mouseinteraction_text_line textElement31_thumbs" data-initial-left="-860" data-initial-top="164" data-final-left="400" data-final-top="164" data-duration="1.5" data-fade-start="0" data-delay="2.0" data-easing="easeOutElastic" data-exit-left="-200" data-exit-top="164" data-exit-duration="1.5" data-exit-delay="0.4"><a href="http://codecanyon.net/user/LambertGroup/portfolio" target="_blank">Game</a><span style="color:#d51220;"> IS ON</span></div>
+                    
+                    <div class="parallax_mouseinteraction_text_line textElement30_thumbs" data-initial-left="930" data-initial-top="143" data-final-left="400" data-final-top="143" data-duration="1.5" data-fade-start="0" data-delay="2.0" data-easing="easeOutElastic" data-exit-left="-200" data-exit-top="143" data-exit-duration="1.5" data-exit-delay="0.2">The</div>
+                    
+                  <div class="parallax_mouseinteraction_text_line textElement32_thumbs" data-initial-left="0" data-initial-top="230" data-final-left="400" data-final-top="230" data-duration="1.5" data-fade-start="0" data-delay="2.3" data-easing="easeOutElastic" data-exit-left="-100" data-exit-top="-248" data-exit-duration="1.5" data-exit-delay="0.4">Width Continuous Move Parameters and Rotate Parameters for chosen elements. Enjoy!</div>
+                  
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="857" data-initial-top="-320" data-final-left="797" data-final-top="0" data-duration="1.7" data-fade-start="0.4" data-delay="1.5" data-exit-left="850" data-exit-top="-600" data-exit-duration="1.5" data-exit-delay="0.6"><img src="images/bulletsFullWidth/smallSpider.png" width="125" height="200" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="-150" data-initial-top="45" data-final-left="0" data-final-top="45" data-duration="1.7" data-fade-start="0.4" data-delay="0.4" data-easing="swing" data-exit-left="120" data-exit-top="45" data-exit-duration="1.5" data-exit-delay="0.2" data-enableMouseInteraction="false"><img src="images/bulletsFullWidth/singleRobot.png" width="340" height="490" alt=""/></div>   
+                                     
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="1328" data-initial-top="0" data-final-left="281" data-final-top="50" data-duration="1.9" data-fade-start="0" data-delay="0.3" data-easing="swing" data-exit-left="155" data-exit-top="43" data-exit-duration="1.0" data-exit-delay="0.1" data-continuous-left="291" data-continuous-top="61" data-continuous-duration="0.05" data-continuous-easing="linear" data-enableMouseInteraction="false"><img src="images/bulletsFullWidth/WaspWing_1.png" width="135" height="66" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="1328" data-initial-top="0" data-final-left="281" data-final-top="49" data-duration="1.9" data-fade-start="0" data-delay="0.3" data-easing="swing" data-exit-left="155" data-exit-top="42" data-exit-duration="1.0" data-exit-delay="0.1" data-continuous-left="291" data-continuous-top="62" data-continuous-duration="0.02" data-continuous-easing="linear" data-enableMouseInteraction="false"><img src="images/bulletsFullWidth/WaspWing_2.png" width="135" height="66" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="1324" data-initial-top="0" data-final-left="277" data-final-top="94" data-duration="1.9" data-fade-start="0" data-delay="0.3" data-easing="swing" data-exit-left="165" data-exit-top="86" data-exit-duration="1.0" data-exit-delay="0.1" data-continuous-left="283" data-continuous-top="102" data-continuous-duration="0.8" data-continuous-easing="linear" data-enableMouseInteraction="false"><img src="images/bulletsFullWidth/WaspBody.png" width="126" height="71" alt=""/></div>
+                    
+                    <div  class="parallax_mouseinteraction_text_line" data-initial-left="670" data-initial-top="-520" data-final-left="610" data-final-top="-40" data-duration="1.7" data-fade-start="0.4" data-delay="2.2" data-easing="easeOutElastic" data-exit-left="640" data-exit-top="-740" data-exit-duration="1.5" data-exit-delay="0.2"><img src="images/thumbs/bigSpiderFixed.png" width="259" height="435" alt=""/></div>
+                    
+               </div><!-- End photoText3 -->
+               
+               
+               
+              
+                                                
+                           
+           </div> <!-- End parallax_mouseinteraction_thumbs--> 
+         
+
+
+</body>
+</html>
